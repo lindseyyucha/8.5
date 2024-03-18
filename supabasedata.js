@@ -1,5 +1,5 @@
  
-
+<script>
   async function getBooks() {
     let { data: Books, error } = await supabase
       .from('Books')
@@ -18,3 +18,4 @@
   }
 
   getBooks();
+  </script>
